@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp-II</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class= "icons">
+            <canvas id="icon" width="100" height="100"></canvas>
+        </header>
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search..." name="search">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Northampton, GB</div>
+                <div class="date">Thursday 10 January 2020</div>
+            </section>
+            <div class="current">
+                <div class="temp">15<span>°C</span></div>
+                <div class="weather">Sunny</div>
+                <div class="hi-low">13°C / 16°C</div>
+            </div>
+            <div class="detail">
+                <div class="detail-section">
+                    <div class="title">PRESSURE</div>
+                    <div class="value" press><span>hPa</span></div>
+                </div>
+                <div class="detail-section border">
+                    <div class="title">WIND</div>
+                    <div class="value" wind><span>Km/h</span></div>
+                </div>
+                <div class="detail-section">
+                    <div class="title">HUMID</div>
+                    <div class="value" humidity><span>%</span></div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
